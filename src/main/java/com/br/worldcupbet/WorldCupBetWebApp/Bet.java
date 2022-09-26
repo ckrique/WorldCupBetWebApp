@@ -2,6 +2,9 @@ package com.br.worldcupbet.WorldCupBetWebApp;
 
 public class Bet {
 	private String punterName;
+	private String teamOnWhichBet;	
+	private double betValue;
+	
 	public String getPunterName() {
 		return punterName;
 	}
@@ -19,7 +22,5 @@ public class Bet {
 	}
 	public void setBetValue(double betValue) {
 		this.betValue = betValue;
-	}
-	private String teamOnWhichBet;	
-	private double betValue;
+	}	
 }
